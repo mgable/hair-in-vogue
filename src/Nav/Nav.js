@@ -36,22 +36,11 @@ class Nav extends React.Component{
 					</button>
 					<div className="collapse navbar-collapse" id="navbarResponsive">
 						<ul className="navbar-nav ml-auto" onClick={this.close}>
-							<li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-							<li className="nav-item">
-								<Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-									<DropdownToggle caret>
-										About
-									</DropdownToggle>
-									<DropdownMenu>
-										<DropdownItem><Link className="nav-link" to="/philosophy">Our Philosophy</Link></DropdownItem>
-										<DropdownItem><Link className="nav-link" to="/linda_leigh">Linda Leigh</Link></DropdownItem>
-										<DropdownItem><Link className="nav-link" to="/boutique">Boutique</Link></DropdownItem>
-									</DropdownMenu>
-								</Dropdown>
-							</li>
+							<li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
 							<li className="nav-item"><Link className="nav-link" to="/services">Services</Link></li>
 							<li className="nav-item"><Link className="nav-link" to="/products">Products</Link></li>
-							<li className="nav-item"><Link className="nav-link" to="/contact_us">Contact Us</Link></li>
+							<li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
+							<li className="nav-item"><Link className="nav-link" to="/kudos">Kudos</Link></li>
 						</ul>
 					</div>
 				</div>
