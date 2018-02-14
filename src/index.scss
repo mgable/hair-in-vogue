@@ -15,7 +15,7 @@ body {
 		}
 	}
 
-	h1 {
+	h1, p {
 		font: {
 			family: 'Montserrat', sans-serif;
 		}
@@ -29,7 +29,7 @@ body {
 					size: 12px;
 				}
 				text-transform: uppercase;
-				color: $black !important;
+				color: $nav-font-color !important;
 			}
 
 			.dropdown {
@@ -39,7 +39,7 @@ body {
 						size: 12px;
 					}
 					text-transform: uppercase;
-					color: $black !important;
+					color: $nav-font-color  !important;
 				}
 			}
 		}
