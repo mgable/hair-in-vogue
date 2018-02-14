@@ -1,20 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import {BrowserRouter as Router} from 'react-router-dom'
+import BasicDisplay from './Display/Basic.js';
+import Nav from './Nav/Nav.js';
+import Footer from './Footer/Footer.js';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 class App extends Component {
-  render() {
+  render(){
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+      <Router>
+        <div>
+          <Nav />
+          <BasicDisplay />
+          <Footer />
+        </div>
+      </Router>
+    )
   }
 }
 
