@@ -9,7 +9,7 @@ body {
 	.top-bar {
 		width: 100%;
 		height: 50px;
-		padding: 10px;
+		padding: 10px 30px;
 		background-color: $black;
 		color: $white;
 		@media (max-width:991px){
@@ -34,25 +34,27 @@ body {
 		}
 	}
 
-	ul {
-		li {
-			a {
-				font: {
-					family: 'Montserrat', sans-serif;
-					size: 12px;
-				}
-				text-transform: uppercase;
-				color: $nav-font-color !important;
-			}
-
-			.dropdown {
-				button {
+	nav {
+		ul {
+			li {
+				a {
 					font: {
 						family: 'Montserrat', sans-serif;
 						size: 12px;
 					}
 					text-transform: uppercase;
-					color: $nav-font-color  !important;
+					color: $nav-font-color !important;
+				}
+
+				.dropdown {
+					button {
+						font: {
+							family: 'Montserrat', sans-serif;
+							size: 12px;
+						}
+						text-transform: uppercase;
+						color: $nav-font-color  !important;
+					}
 				}
 			}
 		}
