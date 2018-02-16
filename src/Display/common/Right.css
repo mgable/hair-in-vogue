@@ -1,0 +1,6 @@
+.right {
+  margin: 50px auto;
+  width: 75%;
+  display: flex; }
+  .right .image-holder {
+    margin: 0 20px 0 0; }
