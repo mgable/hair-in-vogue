@@ -7,8 +7,8 @@ class Footer extends React.Component {
 		return (
 			<footer className="footer">
 				<div className="container">
-					<div class="row">
-						<div class="col-md-6>">
+					<div className="row">
+						<div className="col-md-6>">
 							<ul className="list-inline">
 								<li className="list-inline-item"><Link className="nav-link" to="/about">About</Link></li>
 								<li className="list-inline-item"><Link className="nav-link" to="/services">Services</Link></li>
@@ -17,7 +17,7 @@ class Footer extends React.Component {
 								<li className="list-inline-item"><Link className="nav-link" to="/privacy">Privacy Policy</Link></li>
 							</ul>
 						</div>
-						<div class="col-md-6">
+						<div className="col-md-6">
 							<p className="text-right text-white copyright">Copyright © Hair In Vogue 2018</p>
 						</div>
 					</div>

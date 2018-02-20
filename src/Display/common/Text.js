@@ -1,6 +1,7 @@
 import React from 'react';
+import './Text.css';
 
-class Base extends React.Component{
+class Text extends React.Component{
 	render(){
 		var cta = null;
 
@@ -9,10 +10,7 @@ class Base extends React.Component{
 		}
 
 		return (
-			<div className="Base">
-				<div className="image-holder">
-					<img src={this.props.image} />
-				</div>
+			<div className="text">
 				<div className="text-holder">
 					<h3>{this.props.prehead}</h3> 
 					<h1>{this.props.title}</h1>
@@ -24,5 +22,5 @@ class Base extends React.Component{
 	}
 }
 
-export default Base
+export default Text
 
