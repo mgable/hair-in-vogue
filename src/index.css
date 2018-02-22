@@ -21,8 +21,11 @@ body {
     @media (max-width: 991px) {
       body .top-bar {
         display: none; } }
-    body .top-bar .location, body .top-bar .telephone {
-      font-family: 'Montserrat', sans-serif; }
+    body .top-bar .location a, body .top-bar .telephone a {
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-size: 18px;
+      font-weight: 500; }
     body .top-bar .location {
       float: left; }
     body .top-bar .telephone {

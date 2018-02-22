@@ -39,6 +39,12 @@ class Services extends React.Component{
 
 				<div className="row">
 					<div className="col-sm-12">
+						<Center copy="Linda Leigh has served the needs of clients with medically related hair loss for years. From her own personal journey dealing with alopecia to volunteering with cancer patients at the City of Hope, she’s gained a keen understanding of what current treatments and medications can do to your hair and how best to address hair loss. At Hair in Vogue, we specialize in creating beautiful and natural custom hairpieces and extensions that will feel right and look amazing. No matter your need, we’ll listen to you and ensure you feel confident and beautiful."  prehead="UNDERSTANDING YOUR NEEDS" title="MEDICAL SOLUTIONS" cta="CONTACT US TODAY"></Center>
+					</div>
+				</div>
+
+				<div className="row">
+					<div className="col-sm-12">
 						<Center copy="We’re committed to providing exceptional hair solutions regardless of your hair’s condition. We’ll listen to your needs and strive to exceed your expectations. We’re happy to oblige special requests, and if you suffer from medically related hair loss, we can arrange a home visit. For customized hairpieces and styling, there’s no better choice than Hair in Vogue."  prehead="EXCEED YOUR EXPECTATIONS" title="OUR COMMITMENT TO YOU"></Center>
 					</div>
 				</div>

@@ -2,6 +2,8 @@ import React from 'react';
 import Center from '../common/Center.js'
 import Image from '../common/Image.js'
 import Text from '../common/Text.js'
+import Linda from './Linda.js';
+import Boutique from './Boutique.js';
 
 class About extends React.Component{
 	render(){
@@ -21,6 +23,10 @@ class About extends React.Component{
 						<Text copy="We believe the way your hair looks and feels has a huge impact on your self-image. That’s why we use only the finest products and techniques to ensure you love your look. Professionally trained in the Vidal Sassoon academy, Linda Leigh, along with her team of stylists, will treat you with personalized care and attention. We offer quality styling, cuts, and coloring, as well as private consultations and hairpiece customization. You’ll feel confident and attractive when you visit Hair in Vogue." prehead="FINEST PRODUCTS & TECHNIQUES" title="CUSTOM EXTENSIONS, HAIRPIECES &amp; STYLING"></Text>
 					</div>
 				</div>
+
+				<Linda></Linda>
+
+				<Boutique></Boutique>
 			</div>
 		)
 	}

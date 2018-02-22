@@ -16,8 +16,15 @@ body {
 			display: none;
 		}
 		.location, .telephone {
-			font: {
-				family: 'Montserrat', sans-serif;
+			a {
+				font: {
+					family: 'Montserrat', sans-serif;
+				}
+				color: $white;
+				font: {
+					size: 18px;
+					weight: 500;
+				}
 			}
 		}
 		.location {

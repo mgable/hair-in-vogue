@@ -8,5 +8,7 @@
     text-align: center; }
   .center h3 {
     margin: 0 0 30px; }
-  .center h1, .center p {
+  .center h1 {
     width: 75%; }
+  .center p {
+    margin: 0 100px; }
