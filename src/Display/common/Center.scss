@@ -1,3 +1,5 @@
+@import "../../common/variables.scss";
+
 .center {
 	margin: 50px 0 0 0;
 	display: flex;
@@ -9,13 +11,24 @@
 	}
 
 	h3 {
+		color: $blooming_dahlia;
 		margin: 0 0 30px;
+		font: {
+			family: $san-serif;
+			size: 20px;
+		}
 	}
 
 	h1 {
 		width: 75%;
+		font: {
+			family: $serif;
+		}
 	}
 	p {
-		margin: 0 100px;
+		margin: 0 100px 20px;
+		font: {
+			family: $san-serif;
+		}
 	}
 }

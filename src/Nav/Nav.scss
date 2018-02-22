@@ -1,0 +1,22 @@
+@import "../common/variables.scss";
+
+nav {
+	&.hiv-bg-light {
+		background-color: $nav-background-color;
+	}
+
+	.nav-link {
+		text-transform: uppercase;
+		color: $nav-font-color;
+		font: {
+			family: $san-serif;
+			size: 14px;
+		}
+		&:hover, &.active {
+			color: $blooming_dahlia;
+			font: {
+				weight: 900;
+			}
+		}
+	}
+}

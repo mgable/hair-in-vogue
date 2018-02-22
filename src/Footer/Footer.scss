@@ -4,7 +4,7 @@ footer {
 	clear: both;
 	background-color: $black;
 	font: {
-		family: 'Montserrat', sans-serif;
+		family: $san-serif;
 	}
 
 	.nav-link {
@@ -14,12 +14,17 @@ footer {
 			size: 12px;
 		}
 	}
+	.list-inline {
+		margin: 0.5rem 0;
+	}
 
 	.copyright {
 		color: $white;
 		text-transform: uppercase;
 		padding: 0.5rem 0;
+		margin: 0.5rem 0;
 		font : {
+			family: $san-serif;
 			size: 12px;
 		}
 	}

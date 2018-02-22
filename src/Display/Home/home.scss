@@ -4,7 +4,6 @@
 	.hero-holder {
 		.hero {
 			display: flex;
-			justify-content: space-evenly;
 			align-items: center;
 			color: rgb(255, 255, 255);
 		    background-image: url("https://dummyimage.com/1440x583/000/000.jpg?text=");
@@ -15,26 +14,36 @@
 		    height: 500px;
 		    max-height: 500px;
 		}
-		.face-pic-fpo {
-			width: 500px;
-			height: 500px;
-			background-image: url("https://dummyimage.com/500x500/fff/000.jpg");
-			display: inline-block;
-			background-position: center center;
+		.hero {
+			// width: 500px;
+			// height: 500px;
+			background-image: url("/img/home/hero.jpg");
+			// display: inline-block;
+			// background-position: center center;
 		    background-repeat: no-repeat;
+		}
+
+		.left {
+			margin: 0 0 0 100px;
 		}
 
 		.call-outs {
 			padding-left: 0;
+			color: $almost_mauve;
 			font: {
-				family: 'Montserrat';
+				family: $san-serif;
 			}
 		}
 
-		.tagline, .cta {
+		.tagline{
+			color: $almost_mauve;
 			font: {
-				family: 'Montserrat';
+				family: $san-serif;
 			}
 		}
+	}
+	.row.with-background {
+		margin: 20px 0 0 0;
+		background-color: $almost_mauve;
 	}
 }

@@ -1,3 +1,24 @@
+@import "../../common/variables.scss";
+
 .text {
 	margin: 50px;
+	h3 {
+		color: $blooming_dahlia;
+		margin: 0 0 30px;
+		font: {
+			family: $san-serif;
+			size: 20px;
+		}
+	}
+
+	h1 {
+		font: {
+			family: $serif;
+		}
+	}
+	p {
+		font: {
+			family: $san-serif;
+		}
+	}
 }

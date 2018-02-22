@@ -4,7 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font: {
-		family: 'Montserrat', sans-serif;
+		family: $serif;
 	}
 	.top-bar {
 		width: 100%;
@@ -18,7 +18,7 @@ body {
 		.location, .telephone {
 			a {
 				font: {
-					family: 'Montserrat', sans-serif;
+					family: $san-serif;
 				}
 				color: $white;
 				font: {
@@ -37,33 +37,16 @@ body {
 
 	h1, p {
 		font: {
-			family: 'Montserrat', sans-serif;
+			family: $serif;
 		}
 	}
 
-	nav {
-		ul {
-			li {
-				a {
-					font: {
-						family: 'Montserrat', sans-serif;
-						size: 12px;
-					}
-					text-transform: uppercase;
-					color: $nav-font-color !important;
-				}
-
-				.dropdown {
-					button {
-						font: {
-							family: 'Montserrat', sans-serif;
-							size: 12px;
-						}
-						text-transform: uppercase;
-						color: $nav-font-color  !important;
-					}
-				}
-			}
+	.cta {
+		text-transform: uppercase;
+		background-color: $cta-bg-color;
+		font: {
+			family: $serif;
 		}
 	}
+
 }
