@@ -5,6 +5,14 @@ nav {
 		background-color: $nav-background-color;
 	}
 
+	.navbar-brand {
+		@media (max-width:640px){
+			.desktop {
+				display: none;
+			}
+		}
+	}
+
 	.nav-link {
 		text-transform: uppercase;
 		color: $nav-font-color;

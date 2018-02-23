@@ -39,6 +39,10 @@
 nav.hiv-bg-light {
   background-color: #EBE1DF; }
 
+@media (max-width: 640px) {
+  nav .navbar-brand .desktop {
+    display: none; } }
+
 nav .nav-link {
   text-transform: uppercase;
   color: #666;
