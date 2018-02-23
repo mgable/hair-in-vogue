@@ -11,7 +11,7 @@ class Center extends React.Component{
 			<div className="center">
 				<h3>{this.props.prehead}</h3> 
 				<h1>{this.props.title}</h1>
-				<p dangerouslySetInnerHTML={{__html: this.props.copy}}></p>
+				<div dangerouslySetInnerHTML={{__html: this.props.copy}}></div>
 
 				{cta}
 			</div>

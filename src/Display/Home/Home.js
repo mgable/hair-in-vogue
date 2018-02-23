@@ -10,7 +10,7 @@ class Home extends React.Component{
 		return (
 			<div className="home container-fluid">
 				<div className="row hero-holder">
-					<div className="col-sm-12">
+					<div className="stretch">
 						<div className="hero">
 							<div className="left">
 								<h3 className="tagline">Los Angeles’s Signature<br/>Hair Replacement Boutique</h3>
@@ -27,19 +27,9 @@ class Home extends React.Component{
 					</div>
 				</div>
 				
-
-			</div>
-		)
-	}
-}
-
-export default Home
-
-	
-/*
-<div className="row">
+				<div className="row">
 					<div className="col-sm-12">
-						<Center copy="We understand hair is about life’s changes and challenges.</br>It is the most powerful symbol of your SELF.</br>The means by which you communicate (to yourself and others).</br>Who you are and the life you want to live.</br></br>Our mission is to provide quality hairpieces and extensions which give style, beauty and comfort so you can feel your best while engaging in the world around you." cta="BOOK NOW" prehead="OUR MISSION" title="YOU DESERVE TO LIVE YOUR LIFE TO THE FULLEST."></Center>
+						<Center copy="<p>We understand hair is about life’s changes and challenges.</p><p>It is the most powerful symbol of your SELF.</p><p>The means by which you communicate (to yourself and others).</br>Who you are and the life you want to live.</p><p>Our mission is to provide quality hairpieces and extensions which give style, beauty and comfort so you can feel your best while engaging in the world around you.</p>" cta="BOOK NOW" prehead="OUR MISSION" title="YOU DESERVE TO LIVE YOUR LIFE TO THE FULLEST."></Center>
 					</div>
 				</div>
 
@@ -60,4 +50,10 @@ export default Home
 						<Image image="img/home/Hair4.jpg" width="585" height="390"></Image>
 					</div>
 				</div>
-				*/
+
+			</div>
+		)
+	}
+}
+
+export default Home

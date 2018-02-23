@@ -2,12 +2,18 @@
 
 .home {
 	.hero-holder {
+		.stretch {
+			width: 100%;
+			@media (min-width: 0px) and (max-width: 1024px) {
+				margin: 0 10px;
+			}
+		}
 		.hero {
 			display: flex;
 			align-items: center;
 			color: rgb(255, 255, 255);
 		    background-position: center center;
-		   // background-image: url("/img/home/hero.jpg");
+		   	background-image: url("/img/home/hero.jpg");
 		    background-repeat: no-repeat;
 		    background-size: cover;
 		    width: 100%;

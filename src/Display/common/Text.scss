@@ -2,6 +2,9 @@
 
 .text {
 	margin: 50px;
+	@media (min-width: 0px) and (max-width: 1024px) {
+		margin: 20px 0;
+	}
 	h3 {
 		color: $blooming_dahlia;
 		margin: 0 0 30px;

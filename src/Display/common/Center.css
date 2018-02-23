@@ -59,7 +59,7 @@
     @media (min-width: 0px) and (max-width: 1024px) {
       .center h1 {
         width: auto;
-        margin: 0 10px 10px; } }
+        margin: 0 5px 10px; } }
     @media (min-width: 0px) and (max-width: 1024px) {
       .center h1 {
         font-size: 26px; } }
@@ -68,7 +68,7 @@
     font-family: "Montserrat", sans-serif; }
     @media (min-width: 0px) and (max-width: 1024px) {
       .center p {
-        margin: 0 10px; } }
+        margin: 0 5px; } }
   @media (min-width: 0px) and (max-width: 1024px) {
     .center .cta {
       margin: 15px 0; } }

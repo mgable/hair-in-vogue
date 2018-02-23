@@ -38,6 +38,9 @@
 
 .text {
   margin: 50px; }
+  @media (min-width: 0px) and (max-width: 1024px) {
+    .text {
+      margin: 20px 0; } }
   .text h3 {
     color: #EC9787;
     margin: 0 0 30px;
