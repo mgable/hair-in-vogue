@@ -6,7 +6,7 @@ class Footer extends React.Component {
 	render(){
 		return (
 			<footer className="footer">
-				<div className="container">
+				<div className="container-fluid">
 					<div className="row">
 						<div className="col-md-6>">
 							<ul className="list-inline">

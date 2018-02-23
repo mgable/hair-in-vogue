@@ -39,8 +39,12 @@
 nav.hiv-bg-light {
   background-color: #EBE1DF; }
 
-@media (max-width: 640px) {
+@media (max-width: 1024px) {
   nav .navbar-brand .desktop {
+    display: none; } }
+
+@media (min-width: 1024px) {
+  nav .navbar-brand .mobile {
     display: none; } }
 
 nav .nav-link {
