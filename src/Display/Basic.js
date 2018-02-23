@@ -7,7 +7,6 @@ import Products from './Products/Products.js';
 import Contact from './Contact/Contact.js';
 import Kudos from './Kudos/Kudos.js';
 import Privacy from './Privacy/Privacy.js';
-import _ from 'underscore';
 
 
 class BasicDisplay extends React.Component{

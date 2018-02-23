@@ -2,10 +2,6 @@ import React from 'react';
 import './Center.css';
 
 class Center extends React.Component{
-	constructor(props) {
-		super(props);
-	}
-
 	render(){
 		var cta = null;
 		if (this.props.cta){
