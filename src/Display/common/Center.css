@@ -44,6 +44,9 @@
   align-items: center; }
   .center h1, .center h3, .center p, .center button {
     text-align: center; }
+    @media (min-width: 0px) and (max-width: 1024px) {
+      .center h1, .center h3, .center p, .center button {
+        text-align: left; } }
   .center h3 {
     color: #EC9787;
     margin: 0 0 30px;
@@ -53,6 +56,19 @@
     width: 75%;
     font-family: "Playfair Display Black", serif;
     font-weight: 700; }
+    @media (min-width: 0px) and (max-width: 1024px) {
+      .center h1 {
+        width: auto;
+        margin: 0 10px 10px; } }
+    @media (min-width: 0px) and (max-width: 1024px) {
+      .center h1 {
+        font-size: 26px; } }
   .center p {
     margin: 0 100px 20px;
     font-family: "Montserrat", sans-serif; }
+    @media (min-width: 0px) and (max-width: 1024px) {
+      .center p {
+        margin: 0 10px; } }
+  @media (min-width: 0px) and (max-width: 1024px) {
+    .center .cta {
+      margin: 15px 0; } }
