@@ -77,7 +77,8 @@
 
 .home .hero-holder .tagline {
   color: #EBE1DF;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px; }
   @media (min-width: 0px) and (max-width: 1024px) {
     .home .hero-holder .tagline {
       color: #2b2b2b; } }
