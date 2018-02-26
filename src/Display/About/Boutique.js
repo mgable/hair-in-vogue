@@ -2,12 +2,13 @@ import React from 'react';
 import Center from '../common/Center.js';
 import Text from '../common/Text.js';
 import Image from '../common/Image.js';
+import './Boutique.css';
 
 class Boutique extends React.Component{
 	render(){
 		return (
 			<div className="boutique">
-				<div className="row">
+				<div className="row with-background">
 					<div className="col-sm-12">
 						<Center copy="<p>Hair in Vogue has been Brentwood’s choice hair salon for years. Our stylists have won acclaim both locally and on TV for their hairpiece customization and extension work. Owner Linda Leigh was professionally trained with Vidal Sassoon and brings her expertise to every client. We specialize in high-quality salon styling, cuts, and coloring, as well as extensions and custom hairpieces.</p><p>By appointment only.</p>"  prehead="Los Angeles’s Premier Hair Boutique" title="BRENTWOOD’S CHOICE SALON" cta="CALL US NOW"></Center>
 					</div>

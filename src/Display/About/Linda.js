@@ -2,18 +2,20 @@ import React from 'react';
 import Center from '../common/Center.js';
 import Text from '../common/Text.js';
 import Image from '../common/Image.js';
+import './Linda.css';
 
 class Linda extends React.Component{
 	render(){
 		return (
 			<div className="linda">
+
 				<div className="row">
 					<div className="col-sm-12">
-						<Center copy="As Hollywood’s go-to source for top-quality hairpieces and extensions, our styling team has provided wigs for such popular television shows as Mad Men, Shark, and HBO’s 12 Miles of Bad Road, and has been featured on Your LA. We specialize in integrating the hairpiece or extension so it blends naturally and we have a keen eye for detail. We also offer the finest cuts, tinting, and styling services in the area."  prehead="OWNER OF HAIR IN VOGUE" title="LINDA LEIGH"></Center>
+						<Center copy="<p>Linda Leigh, Ph.D., is a hair replacement artist and holds a doctorate in psychology. Linda received her training in styling from Vidal Sassoon, where she learned to create fine custom hairpieces and extensions. She and her team of expert stylists specialize in hair attachments and both traditional and creative styling and coloring techniques. When you need quality hair replacement and salon styling, there’s no better choice than Hair in Vogue.<p>"  prehead="Quality Hairpieces and Salon Treatments in Los Angeles, CA" title="LINDA LEIGH, OWNER OF HAIR IN VOGUE"></Center>
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row with-background">
 					<div className="col-sm-12 col-md-6">
 						<Image image="https://dummyimage.com/585x390/000/fff"></Image>
 					</div>

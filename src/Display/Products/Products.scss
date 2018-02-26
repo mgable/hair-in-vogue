@@ -1,0 +1,15 @@
+@import "../../common/variables.scss";
+
+.products {
+	.row.with-background {
+		background-color: $little_boy_blue;
+	}
+
+	.row.with-background-odd {
+		background-color: $almost_mauve;
+	}
+
+	.row.with-background-even {
+		background-color: $lime_punch;
+	}
+}

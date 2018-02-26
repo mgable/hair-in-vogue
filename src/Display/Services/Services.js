@@ -2,6 +2,7 @@ import React from 'react';
 import Center from '../common/Center.js'
 import Image from '../common/Image.js'
 import Text from '../common/Text.js'
+import './Services.css';
 
 class Services extends React.Component{
 	render(){
@@ -9,11 +10,11 @@ class Services extends React.Component{
 			<div className="services">
 				<div className="row">
 					<div className="col-sm-12">
-						<Center copy="At Hair in Vogue, we are known for our salon services. Offering both classic and creative hair solutions, our stylists can replicate almost any look and ensure your hair feels lustrous and amazing. Our salon services include:" cta="CALL TODAY" prehead="CREATIVE HAIR SOLUTION" title="HAIR SALON SERVICES"></Center>
+						<Center copy="<p>At Hair in Vogue, we are known for our salon services. Offering both classic and creative hair solutions, our stylists can replicate almost any look and ensure your hair feels lustrous and amazing. Our salon services include:</p>" cta="CALL TODAY" prehead="CREATIVE HAIR SOLUTION" title="HAIR SALON SERVICES"></Center>
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row with-background">
 					<div className="col-sm-12 col-md-6">
 						<Text copy='<h6 class="prehead">Women</h6><ul><li>Cuts, styling, and blow dry</li><li>Shampoo</li><li>Flat iron</li><li>Tints (both root touch-ups and all over)</li><li>Highlights/weaves</li><li>Lowlights and corrective coloring</li><li>Bleach and toner</li></ul><h6 class="prehead">Men</h6><ul><li>Cut and styling</li><li>Tints and highlights</li></ul><h6 class="prehead">Other Treatments</h6><ul><li>Perms</li><li>Gloss and conditioners</li><li>YUKO hair straightening</li><li>Brazilian hair straightening</li><li>Relaxers</li><li>and more</li></ul><p>We’ll work with you to ensure your hair is radiant and you look fantastic. Call us today to schedule an appointment.</p>'></Text>
 					</div>
@@ -24,11 +25,11 @@ class Services extends React.Component{
 
 				<div className="row">
 					<div className="col-sm-12">
-						<Center copy="We take great care in selecting the best method for attaching your hairpiece or extension, from microcylinders and various glues to braiding, sewing, pole weaving, clips, and tape. We’ll find the most natural, secure way to include your hair extension, weave, or hairpiece and ensure it’s both comfortable and reliable for use. Our hair replacement services include:"  prehead="COMFORTABLE &amp; RELIABLE" title="HAIR REPLACEMENT SERVICES"></Center>
+						<Center copy="<p>We take great care in selecting the best method for attaching your hairpiece or extension, from microcylinders and various glues to braiding, sewing, pole weaving, clips, and tape. We’ll find the most natural, secure way to include your hair extension, weave, or hairpiece and ensure it’s both comfortable and reliable for use. Our hair replacement services include:</p>"  prehead="COMFORTABLE &amp; RELIABLE" title="HAIR REPLACEMENT SERVICES"></Center>
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row with-background-odd">
 					<div className="col-sm-12 col-md-6">
 						<Image image="https://dummyimage.com/470x313/000/fff"></Image>
 					</div>
@@ -39,13 +40,13 @@ class Services extends React.Component{
 
 				<div className="row">
 					<div className="col-sm-12">
-						<Center copy="Linda Leigh has served the needs of clients with medically related hair loss for years. From her own personal journey dealing with alopecia to volunteering with cancer patients at the City of Hope, she’s gained a keen understanding of what current treatments and medications can do to your hair and how best to address hair loss. At Hair in Vogue, we specialize in creating beautiful and natural custom hairpieces and extensions that will feel right and look amazing. No matter your need, we’ll listen to you and ensure you feel confident and beautiful."  prehead="UNDERSTANDING YOUR NEEDS" title="MEDICAL SOLUTIONS" cta="CONTACT US TODAY"></Center>
+						<Center copy="<p>Linda Leigh has served the needs of clients with medically related hair loss for years. From her own personal journey dealing with alopecia to volunteering with cancer patients at the City of Hope, she’s gained a keen understanding of what current treatments and medications can do to your hair and how best to address hair loss. At Hair in Vogue, we specialize in creating beautiful and natural custom hairpieces and extensions that will feel right and look amazing. No matter your need, we’ll listen to you and ensure you feel confident and beautiful.</p>"  prehead="UNDERSTANDING YOUR NEEDS" title="MEDICAL SOLUTIONS" cta="CONTACT US TODAY"></Center>
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row with-background-even">
 					<div className="col-sm-12">
-						<Center copy="We’re committed to providing exceptional hair solutions regardless of your hair’s condition. We’ll listen to your needs and strive to exceed your expectations. We’re happy to oblige special requests, and if you suffer from medically related hair loss, we can arrange a home visit. For customized hairpieces and styling, there’s no better choice than Hair in Vogue."  prehead="EXCEED YOUR EXPECTATIONS" title="OUR COMMITMENT TO YOU"></Center>
+						<Center copy="<p>We’re committed to providing exceptional hair solutions regardless of your hair’s condition. We’ll listen to your needs and strive to exceed your expectations. We’re happy to oblige special requests, and if you suffer from medically related hair loss, we can arrange a home visit. For customized hairpieces and styling, there’s no better choice than Hair in Vogue.</p>"  prehead="EXCEED YOUR EXPECTATIONS" title="OUR COMMITMENT TO YOU"></Center>
 					</div>
 				</div>
 
