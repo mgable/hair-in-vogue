@@ -2,6 +2,7 @@ import React from 'react';
 import Center from '../common/Center.js';
 import Image from '../common/Image.js';
 import Text from '../common/Text.js';
+import Quote from '../common/Quote.js';
 import './Products.css';
 
 class Products extends React.Component{
@@ -20,7 +21,13 @@ class Products extends React.Component{
 						<Image image="https://dummyimage.com/585x390/000/fff"></Image>
 					</div>
 					<div className="col-sm-12 col-md-6">
-						<Text copy="Whether you’re enjoying a leisurely day at home or are out and about, we understand your hairpiece should sit snugly and feel natural. Our team of professional hairpiece stylists knows how to best attach your hairpiece for both stability and comfort. We offer hairpieces for clients dealing with long-term medical hair loss and short-term hair loss, or those who are in need of a fun style change-up."   prehead="PROFESSIONAL HAIRPIECE STYLISTS" title="DESIGNED FOR YOUR LIFE"></Text>
+						<Text copy="Whether you’re enjoying a leisurely day at home or are out and about, we understand your hairpiece should sit snugly and feel natural. Our team of professional hairpiece stylists knows how to best attach your hairpiece for both stability and comfort. We offer hairpieces for clients dealing with long-term medical hair loss and short-term hair loss, or those who are in need of a fun style change-up." prehead="PROFESSIONAL HAIRPIECE STYLISTS" title="DESIGNED FOR YOUR LIFE"></Text>
+					</div>
+				</div>
+
+				<div className="row">
+					<div className="col-sm-12">
+						<Quote quote="Linda is a complete artist. The way she transformed my hair is like magic. I went in with little hair and a few hours later I look beautiful. I am so happy. The hair – it is soft and luxurious, looks healthy and very natural. It is great to have everything done in one place: cut, color, hairpiece, extension. I used to have to drive all over town. I love the cut. I get compliments on my hair wherever I go. Without the hair I would be lost. She is the best." attribution="Fina S" ></Quote>
 					</div>
 				</div>
 

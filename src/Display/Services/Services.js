@@ -1,7 +1,8 @@
 import React from 'react';
-import Center from '../common/Center.js'
-import Image from '../common/Image.js'
-import Text from '../common/Text.js'
+import Center from '../common/Center.js';
+import Image from '../common/Image.js';
+import Text from '../common/Text.js';
+import Quote from '../common/Quote.js';
 import './Services.css';
 
 class Services extends React.Component{
@@ -20,6 +21,12 @@ class Services extends React.Component{
 					</div>
 					<div className="col-sm-12 col-md-6">
 						<Image image="https://dummyimage.com/427x640/000/fff"></Image>
+					</div>
+				</div>
+
+				<div className="row">
+					<div className="col-sm-12">
+						<Quote quote="I purchased a wig which is absolutely gorgeous. My boyfriend was stunned how natural it looks. The scalp looks totally real and the color is amazing. It is a darker color at the roots and transitions into golden silky hair. I like the way the hair moves when I turn my head and love the cut. Of course I like looking younger too!" attribution="Ann H."></Quote>
 					</div>
 				</div>
 
