@@ -1,7 +1,8 @@
 import React from 'react';
-import Center from '../common/Center.js'
-import Image from '../common/Image.js'
-import Text from '../common/Text.js'
+import Center from '../common/Center.js';
+import Image from '../common/Image.js';
+import Text from '../common/Text.js';
+import Quote from '../common/Quote.js';
 import './home.css';
 // import './About.css';
 
@@ -43,6 +44,12 @@ class Home extends React.Component{
 				</div>
 
 				<div className="row">
+					<div className="col-sm-12">
+						<Quote quote="Love this salon! Linda does amazing work and truly is an artist in everything she does. This salon is the best of the west side. I love this place." attribution="Brooke H."></Quote>
+					</div>
+				</div>
+
+				<div className="row with-background-odd">
 					<div className="col-sm-12 col-md-6">
 						<Text copy="No matter the reason for your hair loss, you shouldn’t be limited to a few looks. We use and customize natural-looking hairpieces for both short- and long-term use. We can also repair or style the hairpiece to your preference and ensure it feels great. We also offer quality extensions, tinting, cuts, and styling. Give yourself a day of fun and relaxation at Hair in Vogue." prehead="CUSTOMIZED HAIRPIECES" title="RELIABLE HAIR TREATMENTS"></Text>
 					</div>

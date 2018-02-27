@@ -38,9 +38,6 @@
 			}
 		}
 
-
-		
-
 		.call-outs {
 			padding-left: 0;
 			color: $almost_mauve;
@@ -66,5 +63,10 @@
 	.row.with-background {
 		margin-top: 20px;
 		background-color: $almost_mauve;
+	}
+
+	.row.with-background-odd {
+		margin-top: 20px;
+		background-color:  $little_boy_blue;
 	}
 }

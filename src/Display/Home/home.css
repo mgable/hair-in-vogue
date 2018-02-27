@@ -86,3 +86,7 @@
 .home .row.with-background {
   margin-top: 20px;
   background-color: #EBE1DF; }
+
+.home .row.with-background-odd {
+  margin-top: 20px;
+  background-color: #d4f0fb; }

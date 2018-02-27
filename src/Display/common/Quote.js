@@ -6,7 +6,8 @@ class Quote extends React.Component{
 		return (
 			<div className="quote">
 				<div className="quote-holder">
-					<quote>{this.props.width}</quote>
+					<blockquote>{this.props.quote}</blockquote>
+					<p className="attribution">{this.props.attribution}</p>
 				</div>
 			</div>
 		)
