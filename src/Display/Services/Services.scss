@@ -1,6 +1,23 @@
 @import "../../common/variables.scss";
 
 .services {
+
+	.text {
+		@media (min-width: 0px) and (max-width: 1024px) {
+			margin: 50px;
+		}
+	}
+	.displayFlex {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.image-holder {
+		img {
+			position: static;
+		}
+	}
 	.row.with-background {
 		background-color: $little_boy_blue;
 	}

@@ -36,6 +36,18 @@
   src: local("Playfair Display Black"), local("PlayfairDisplay-Black"), url(https://fonts.gstatic.com/s/playfairdisplay/v13/nuFlD-vYSZviVYUb_rj3ij__anPXBb__lW4e5j5hNKc.woff2) format("woff2");
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
 
+@media (min-width: 0px) and (max-width: 1024px) {
+  .services .text {
+    margin: 50px; } }
+
+.services .displayFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.services .image-holder img {
+  position: static; }
+
 .services .row.with-background {
   background-color: #d4f0fb; }
 

@@ -42,6 +42,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  @media (min-width: 0px) and (max-width: 1024px) {
+    .center {
+      margin: 50px; } }
   .center h1, .center h3, .center p, .center button {
     text-align: center; }
     @media (min-width: 0px) and (max-width: 1024px) {

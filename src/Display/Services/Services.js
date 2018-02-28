@@ -11,15 +11,15 @@ class Services extends React.Component{
 			<div className="services">
 				<div className="row">
 					<div className="col-sm-12">
-						<Center copy="<p>At Hair in Vogue, we are known for our salon services. Offering both classic and creative hair solutions, our stylists can replicate almost any look and ensure your hair feels lustrous and amazing. Our salon services include:</p>" cta="CALL TODAY" prehead="CREATIVE HAIR SOLUTION" title="HAIR SALON SERVICES"></Center>
+						<Center copy="<p>At Hair in Vogue, we are known for our salon services. Offering both classic and creative hair solutions, our stylists can replicate almost any look and ensure your hair feels lustrous and amazing.</p>" cta="CALL TODAY" prehead="CREATIVE HAIR SOLUTION" title="HAIR SALON SERVICES"></Center>
 					</div>
 				</div>
 
 				<div className="row with-background">
 					<div className="col-sm-12 col-md-6">
-						<Text copy='<h6 class="prehead">Women</h6><ul><li>Cuts, styling, and blow dry</li><li>Shampoo</li><li>Flat iron</li><li>Tints (both root touch-ups and all over)</li><li>Highlights/weaves</li><li>Lowlights and corrective coloring</li><li>Bleach and toner</li></ul><h6 class="prehead">Men</h6><ul><li>Cut and styling</li><li>Tints and highlights</li></ul><h6 class="prehead">Other Treatments</h6><ul><li>Perms</li><li>Gloss and conditioners</li><li>YUKO hair straightening</li><li>Brazilian hair straightening</li><li>Relaxers</li><li>and more</li></ul><p>We’ll work with you to ensure your hair is radiant and you look fantastic. Call us today to schedule an appointment.</p>'></Text>
+						<Text copy='<h6 class="prehead">Women</h6><ul><li>Cuts, styling, and blow dry</li><li>Shampoo</li><li>Flat iron</li><li>Tints (both root touch-ups and all over)</li><li>Highlights/weaves</li><li>Lowlights and corrective coloring</li><li>Bleach and toner</li></ul><h6 class="prehead">Men</h6><ul><li>Cut and styling</li><li>Tints and highlights</li></ul><h6 class="prehead">Other Treatments</h6><ul><li>Perms</li><li>Gloss and conditioners</li><li>YUKO hair straightening</li><li>Brazilian hair straightening</li><li>Relaxers</li><li>and more</li></ul><p>We’ll work with you to ensure your hair is radiant and you look fantastic. Call us today to schedule an appointment.</p>' title='Our salon services include:'></Text>
 					</div>
-					<div className="col-sm-12 col-md-6">
+					<div className="col-sm-12 col-md-6 displayFlex">
 						<Image image="https://dummyimage.com/427x640/000/fff"></Image>
 					</div>
 				</div>
@@ -37,11 +37,11 @@ class Services extends React.Component{
 				</div>
 
 				<div className="row with-background-odd">
-					<div className="col-sm-12 col-md-6">
+					<div className="col-sm-12 col-md-6 displayFlex">
 						<Image image="https://dummyimage.com/470x313/000/fff"></Image>
 					</div>
 					<div className="col-sm-12 col-md-6">
-						<Text copy="<h6>Extension services</h6><ul><li>Attach weft and individuals</li><li>Glue tip individuals</li><li>Cut and coloring extensions</li><li>Re-tipping</li></ul><h6>Hairpiece services</h6><ul><li>Attach hairpieces: full, three-quarters, top</li><li>Cut and coloring</li><li>Repairs (adding, removing, reinforcing base, highlights, and resizing cap or base)/li><li>We also offer home visits for medically related hair loss.</li><li>Customizing</li></ul>" cta="CONTACT US TODAY"  title="WHAT WE OFFER"></Text>
+						<Text copy="<h6>Extension services</h6><ul><li>Attach weft and individuals</li><li>Glue tip individuals</li><li>Cut and coloring extensions</li><li>Re-tipping</li></ul><h6>Hairpiece services</h6><ul><li>Attach hairpieces: full, three-quarters, top</li><li>Cut and coloring</li><li>Repairs (adding, removing, reinforcing base, highlights, and resizing cap or base)</li><li>We also offer home visits for medically related hair loss.</li><li>Customizing</li></ul>" cta="CONTACT US TODAY"  title="WHAT WE OFFER"></Text>
 					</div>
 				</div>
 

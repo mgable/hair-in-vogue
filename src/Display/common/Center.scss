@@ -2,6 +2,9 @@
 
 .center {
 	margin: 50px 0;
+	@media (min-width: 0px) and (max-width: 1024px) {
+		margin: 50px;
+	}
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
