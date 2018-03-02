@@ -8,7 +8,7 @@ import './Kudos.css';
 class Kudos extends React.Component{
 	render(){
 		return (
-			<div className="kudos">
+			<div className="kudos container-fluid">
 				<div className="row">
 					<div className="col-sm-12">
 						<Center copy="<h6>Linda Leigh has designed and created extensions and hair pieces for the following shows and others:</h6><ul><li>AMC “Madmen” – designed hairpiece for lead actress Christina Henke, playing Joan</li><li>“Shark” – designed extensions for lead actress Jeri Ryan</li><li>HBO “12 Miles of Bad Road” – designed extensions for lead actress</li><li>“The 19th Wife” – designed extensions for actress, Tyler Leigh</li></ul>"  prehead="CREDIT &amp; PRESS RELEASES" title="CREDITS: FILM &amp; TV"></Center>
@@ -32,7 +32,7 @@ class Kudos extends React.Component{
 
 				<div className="row">
 					<div className="col-sm-12">
-						<Center copy='<h6>Linda Leigh has appeared on the following television shows:</h6><p>Your LA, Channel 4 – March, 2008</p><iframe src="https://www.youtube.com/embed/6rb1co65tTY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" class="fluidvids-item" data-fluidvids="loaded"></iframe><p>KTLA Morning Show, Channel 5 – April, 2008</p><iframe src="https://www.youtube.com/embed/B-J8SuPCk1g" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" class="fluidvids-item" data-fluidvids="loaded"></iframe>'  prehead="Appearances" title="TELEVISION APPEARANCES"></Center>
+						<Text copy='<h6>Linda Leigh has appeared on the following television shows:</h6><p>Your LA, Channel 4 – March, 2008</p><iframe src="https://www.youtube.com/embed/6rb1co65tTY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" class="fluidvids-item" data-fluidvids="loaded"></iframe><p>KTLA Morning Show, Channel 5 – April, 2008</p><iframe src="https://www.youtube.com/embed/B-J8SuPCk1g" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" class="fluidvids-item" data-fluidvids="loaded"></iframe>'  prehead="Appearances" title="TELEVISION APPEARANCES"></Text>
 					</div>
 				</div>
 

@@ -12,4 +12,8 @@
 	.row.with-background-even {
 		background-color: $lime_punch;
 	}
+
+	.image-holder img {
+	    position: static;
+	}
 }

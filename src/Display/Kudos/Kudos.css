@@ -44,3 +44,6 @@
 
 .kudos .row.with-background-even {
   background-color: #8bffb6; }
+
+.kudos .image-holder img {
+  position: static; }
