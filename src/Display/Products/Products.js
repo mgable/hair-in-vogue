@@ -8,7 +8,7 @@ import './Products.css';
 class Products extends React.Component{
 	render(){
 		return (
-			<div className="products">
+			<div className="products container-fluid">
 				<div className="row">
 					<div className="col-sm-12">
 						<Center copy="<p>We take pride in offering comfortable and natural-looking hairpieces that will match the color and texture of your hair perfectly. We can customize your hairpiece to look right for your age and ensure it has both a firm fit and natural movement. We also provide coloring and cuts for each hairpiece to complement your skin tone, face shape, and ethnicity. When you need a quality customized hair replacement, Hair in Vogue is your best choice.</p>" prehead="COMFORTABLE &amp; NATURAL" title="CUSTOMIZATION IS OUR SPECIALTY"></Center>

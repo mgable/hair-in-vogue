@@ -11,7 +11,7 @@ class About extends React.Component{
 	render(){
 		return (
 			<section>
-				<div className="about">
+				<div className="about container-fluid">
 					<div className="row">
 						<div className="col-sm-12">
 							<Center copy="<p>As Hollywood’s go-to source for top-quality hairpieces and extensions, our styling team has provided wigs for such popular television shows as Mad Men, Shark, and HBO’s 12 Miles of Bad Road, and has been featured on Your LA. We specialize in integrating the hairpiece or extension so it blends naturally and we have a keen eye for detail. We also offer the finest cuts, tinting, and styling services in the area.<p>" prehead="WHO WE ARE" cta="SCHEDULE APPOINTMENT" title="LOS ANGELES’S MOST TRUSTED HAIRPIECE EXPERTS"></Center>

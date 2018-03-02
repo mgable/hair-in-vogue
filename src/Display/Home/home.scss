@@ -8,6 +8,12 @@
 				margin: 0 10px;
 			}
 		}
+		.mobile-hero-holder {
+			background-position: center center;
+		   	background-image: url("/img/home/hero.jpg");
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		}
 		.hero {
 			display: flex;
 			align-items: center;
@@ -21,14 +27,43 @@
 		    max-height: 500px;
 		   	@media (min-width: 0px) and (max-width: 1024px) {
 				background-image: none;
-				display: block;
-				height: auto;
+				display: none;
 			}
+		}
 
+		.hero-mobile{
+			display: none;
+			margin: 0 -10px;
+			position: relative;
+			.mobile-hero-holder {
+				background-position: center center;
+			   	background-image: url("/img/home/hero.jpg");
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			    opacity: 0.6;
+			    height: 150px;
+			}
+			h3 {
+				color: $emperador;
+				position: absolute;
+				top: 0;
+				padding: 10px 20px;
+				font: {
+					size: 28px;
+					family: $san-serif;
+					weight: 600;
+				}
+			}
+			@media (min-width: 0px) and (max-width: 1024px) {
+				display: block;
+			}
+		}
+
+		.hero, .hero-mobile {
 			.left {
 				margin: 0 0 0 100px;
 				@media (min-width: 0px) and (max-width: 1024px) {
-					margin: 10px 20px 0 20px;
+					margin: 10px 30px 0 30px;
 				}
 				button {
 					@media (min-width: 0px) and (max-width: 1024px) {

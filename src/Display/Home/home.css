@@ -42,6 +42,12 @@
     .home .hero-holder .stretch {
       margin: 0 10px; } }
 
+.home .hero-holder .mobile-hero-holder {
+  background-position: center center;
+  background-image: url("/img/home/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .home .hero-holder .hero {
   display: flex;
   align-items: center;
@@ -56,16 +62,39 @@
   @media (min-width: 0px) and (max-width: 1024px) {
     .home .hero-holder .hero {
       background-image: none;
-      display: block;
-      height: auto; } }
-  .home .hero-holder .hero .left {
-    margin: 0 0 0 100px; }
-    @media (min-width: 0px) and (max-width: 1024px) {
-      .home .hero-holder .hero .left {
-        margin: 10px 20px 0 20px; } }
-    @media (min-width: 0px) and (max-width: 1024px) {
-      .home .hero-holder .hero .left button {
-        width: 100%; } }
+      display: none; } }
+
+.home .hero-holder .hero-mobile {
+  display: none;
+  margin: 0 -10px;
+  position: relative; }
+  .home .hero-holder .hero-mobile .mobile-hero-holder {
+    background-position: center center;
+    background-image: url("/img/home/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    height: 150px; }
+  .home .hero-holder .hero-mobile h3 {
+    color: #6C4F3D;
+    position: absolute;
+    top: 0;
+    padding: 10px 20px;
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; }
+  @media (min-width: 0px) and (max-width: 1024px) {
+    .home .hero-holder .hero-mobile {
+      display: block; } }
+
+.home .hero-holder .hero .left, .home .hero-holder .hero-mobile .left {
+  margin: 0 0 0 100px; }
+  @media (min-width: 0px) and (max-width: 1024px) {
+    .home .hero-holder .hero .left, .home .hero-holder .hero-mobile .left {
+      margin: 10px 30px 0 30px; } }
+  @media (min-width: 0px) and (max-width: 1024px) {
+    .home .hero-holder .hero .left button, .home .hero-holder .hero-mobile .left button {
+      width: 100%; } }
 
 .home .hero-holder .call-outs {
   padding-left: 0;

@@ -44,7 +44,7 @@
   align-items: center; }
   @media (min-width: 0px) and (max-width: 1024px) {
     .center {
-      margin: 50px; } }
+      margin: 50px 10px; } }
   .center h1, .center h3, .center p, .center button {
     text-align: center; }
     @media (min-width: 0px) and (max-width: 1024px) {

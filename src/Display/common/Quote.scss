@@ -22,7 +22,7 @@
 				font: {
 		    		size: 20px;
 			    }
-			    width: 90%;
+			    width: 100%;
 			}
 			&:before {
 				left: -10px;
@@ -67,6 +67,10 @@
 				family: $san-serif;
 			}
 			color: $emperador;
+		}
+
+		@media (min-width: 0px) and (max-width: 1024px) {
+			margin: 30px 0 0 0;
 		}
 	}
 }

@@ -7,7 +7,7 @@ import './Linda.css';
 class Linda extends React.Component{
 	render(){
 		return (
-			<div className="linda">
+			<div className="linda container-fluid">
 
 				<div className="row">
 					<div className="col-sm-12">

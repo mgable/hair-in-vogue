@@ -8,10 +8,10 @@ import './Services.css';
 class Services extends React.Component{
 	render(){
 		return (
-			<div className="services">
+			<div className="services container-fluid">
 				<div className="row">
 					<div className="col-sm-12">
-						<Center copy="<p>At Hair in Vogue, we are known for our salon services. Offering both classic and creative hair solutions, our stylists can replicate almost any look and ensure your hair feels lustrous and amazing.</p>" cta="CALL TODAY" prehead="CREATIVE HAIR SOLUTION" title="HAIR SALON SERVICES"></Center>
+						<Center copy="<p>At Hair in Vogue, we are known for our salon services. Offering both classic and creative hair solutions, our stylists can replicate almost any look and ensure your hair feels lustrous and amazing.</p>" cta="CALL TODAY" prehead="CREATIVE HAIR SOLUTIONS" title="HAIR SALON SERVICES"></Center>
 					</div>
 				</div>
 

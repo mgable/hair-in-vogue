@@ -38,7 +38,7 @@
 
 @media (min-width: 0px) and (max-width: 1024px) {
   .services .text {
-    margin: 50px; } }
+    margin: 25px 0; } }
 
 .services .displayFlex {
   display: flex;

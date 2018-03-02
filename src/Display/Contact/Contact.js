@@ -7,7 +7,7 @@ import './Contact.css'
 class Contact extends React.Component{
 	render(){
 		return (
-			<div className="contact">
+			<div className="contact container-fluid">
 				<div className="row">
 					<div className="col-sm-12 col-md-6">
 						<Image image="https://dummyimage.com/470x313/000/fff"></Image>
