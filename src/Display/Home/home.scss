@@ -1,6 +1,14 @@
 @import "../../common/variables.scss";
 
 .home {
+	.image-holder { // this is very temp
+		img {
+			@media (min-width: 0px) and (max-width: 1024px) {
+				position: relative;
+				left: -195px
+			}
+		}
+	}
 	.hero-holder {
 		.stretch {
 			width: 100%;

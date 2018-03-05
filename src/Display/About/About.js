@@ -28,7 +28,7 @@ class About extends React.Component{
 					</div>
 				</div>
 
-				<div className="row">
+				<div className="row container-fluid">
 					<div className="col-sm-12">
 						<Quote quote="I purchased an integration piece from Hair In Vogue – it looks totally natural, matches my hair, and is very comfortable – took ten years off me! I have had many pieces from different companies and this by far is the best! The staff takes a lot of pride in their work and it shows. Thank you Linda !!!" attribution="Zen"></Quote>
 					</div>

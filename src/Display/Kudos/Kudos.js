@@ -32,7 +32,7 @@ class Kudos extends React.Component{
 
 				<div className="row">
 					<div className="col-sm-12">
-						<Text copy='<h6>Linda Leigh has appeared on the following television shows:</h6><p>Your LA, Channel 4 – March, 2008</p><iframe src="https://www.youtube.com/embed/6rb1co65tTY" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" class="fluidvids-item" data-fluidvids="loaded"></iframe><p>KTLA Morning Show, Channel 5 – April, 2008</p><iframe src="https://www.youtube.com/embed/B-J8SuPCk1g" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" class="fluidvids-item" data-fluidvids="loaded"></iframe>'  prehead="Appearances" title="TELEVISION APPEARANCES"></Text>
+						<Center copy='<h6>Linda Leigh has appeared on the following television shows:</h6><p>Your LA, Channel 4 – March, 2008</p><iframe src="https://www.youtube.com/embed/6rb1co65tTY" frameborder="0" allowfullscreen="allowfullscreen" class="fluidvids-item" data-fluidvids="loaded"></iframe><p>KTLA Morning Show, Channel 5 – April, 2008</p><iframe src="https://www.youtube.com/embed/B-J8SuPCk1g"  frameborder="0" allowfullscreen="allowfullscreen" class="fluidvids-item" data-fluidvids="loaded"></iframe>'  prehead="Appearances" title="TELEVISION APPEARANCES"></Center>
 					</div>
 				</div>
 

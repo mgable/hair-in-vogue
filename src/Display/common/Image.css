@@ -4,7 +4,3 @@
   @media (min-width: 0px) and (max-width: 1024px) {
     .image .image-holder {
       margin: 0 -15px; } }
-  @media (min-width: 0px) and (max-width: 1024px) {
-    .image .image-holder img {
-      position: relative;
-      left: -195px; } }
