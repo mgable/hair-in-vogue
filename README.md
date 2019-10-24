@@ -1,3 +1,6 @@
+This was my first foray into React. Just as a simple web site.
+
+## Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
